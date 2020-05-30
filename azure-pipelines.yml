@@ -21,4 +21,4 @@ steps:
     cleanDestinationFolder: false
 - script: |
   echo Write your commands here
-  Sudo chmod  +x  $(System.DefaultWorkingDirectory)/TCLI
+  chmod  +x  $(System.DefaultWorkingDirectory)/TCLI
