@@ -14,7 +14,11 @@ steps:
     repository: mkhammash/myrepository
     command: build
     Dockerfile: Dockerfile
-
+- task: ExtractFiles@1
+  displayName: 'Extract files '
+  inputs:
+    destinationFolder: TCLI
+    cleanDestinationFolder: false
 - script: |
   echo Write your commands here
-  Sudo chmod +x  $(System.DefaultWorkingDirectory)/TCLI
+  Sudo chmod  +x  $(System.DefaultWorkingDirectory)/TCLI
