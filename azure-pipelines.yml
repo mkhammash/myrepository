@@ -19,5 +19,6 @@ steps:
   inputs:
     destinationFolder: TCLI
     cleanDestinationFolder: false
+
 - script: |
   echo Write your commands here
