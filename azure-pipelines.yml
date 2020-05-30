@@ -19,5 +19,4 @@ steps:
   inputs:
     destinationFolder: TCLI
 
-- script: |
-  echo Write your commands here
+
