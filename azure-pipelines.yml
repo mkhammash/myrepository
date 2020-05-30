@@ -18,7 +18,6 @@ steps:
   displayName: 'Extract files '
   inputs:
     destinationFolder: TCLI
-    cleanDestinationFolder: false
 
 - script: |
   echo Write your commands here
