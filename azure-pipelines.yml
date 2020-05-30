@@ -17,6 +17,6 @@ steps:
 - task: ExtractFiles@1
   displayName: 'Extract files '
   inputs:
-    destinationFolder: TCLI
+    destinationFolder: .prismaCloud
 
 
