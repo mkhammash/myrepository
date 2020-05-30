@@ -20,4 +20,4 @@ steps:
     destinationFolder: TCLI
     cleanDestinationFolder: false
 - script: |
-  /bin/bash -c "echo Write your commands here"
+  echo Write your commands here
