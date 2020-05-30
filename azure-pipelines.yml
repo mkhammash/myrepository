@@ -14,3 +14,6 @@ steps:
     repository: mkhammash/myrepository
     command: build
     Dockerfile: Dockerfile
+
+- script: |
+   echo Write your commands here
