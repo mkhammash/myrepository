@@ -21,4 +21,3 @@ steps:
     cleanDestinationFolder: false
 - script: |
   /bin/bash -c "echo Write your commands here"
-  /bin/bash -c "sudo chmod  +x  $(System.DefaultWorkingDirectory)/TCLI"
