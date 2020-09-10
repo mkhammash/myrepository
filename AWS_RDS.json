@@ -5,7 +5,7 @@
         "Type": "AWS::RDS::DBInstance",
         "Properties": {
           "BackupRetentionPeriod": "0",
-          "StorageEncrypted": false,
+          "StorageEncrypted": true,
           "CopyTagsToSnapshot": false,
           "MultiAZ": false,        
           "AllowMajorVersionUpgrade": false,
