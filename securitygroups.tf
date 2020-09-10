@@ -26,6 +26,13 @@ resource "aws_security_group" "WebServer" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+  
+  ingress {
+    from_port   = 8080
+    to_port     = 8080
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
 ######################################################
 # Change ingress cidr_blocks from "0.0.0.0/0" 
 # to "24.55.20.32/32"
