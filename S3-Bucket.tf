@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "default" {
  # Change Versioning from "false" to "true"
 ######################################################
   versioning {
-    enabled = false
+    enabled = true
   }
 
   lifecycle_rule {
